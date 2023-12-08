@@ -24,6 +24,7 @@ body {
     h1, h2, h3, h4, h5, h6 {
         text-align: center;
 color: #007bff;
+
 }
 form {
 max-width: 400px;
@@ -88,4 +89,10 @@ font-size: 85%;
 }
 a:hover {
 background-color: #cd7b00;
+}
+
+div {
+    background-image: url("/static/img/wallpapergr.jpg");
+height: auto;
+background-repeat: no-repeat;
 }
