@@ -31,16 +31,27 @@ max-width: 400px;
 margin: 0 auto;
 padding: 20px;
 background-color: white;
-border: 1px solid lightslategray;
-border-radius: 5px;
+background: #686d6f7a;
+padding: 35px 40px;
+border-radius: 4px;
+z-index: 1;
+overflow: hidden;
+box-shadow: 0px 12px 31px #ffffff52, 0px 36px 31px #000000a1;
+animation: login 0.88s ease;
 }
 table {
 max-width: 90%;
 margin: 0 auto;
-padding: 20px;
 background-color: white;
 border: 1px solid lightslategray;
-border-radius: 5px;
+position: relative;
+background: #686d6f7a;
+padding: 35px 40px;
+border-radius: 4px;
+z-index: 1;
+overflow: hidden;
+box-shadow: 0px 12px 31px #ffffff52, 0px 36px 31px #000000a1;
+animation: login 0.88s ease;
 }
 label {
 display: block;
@@ -61,6 +72,7 @@ border: none;
 border-radius: 5px;
 cursor: pointer;
 }
+
 input[type="submit"]:hover {
 background-color: #0056b3;
 }
@@ -79,7 +91,7 @@ background-color: #0056b3;
 a {
 padding: 8px;
 margin: 4px;
-background-color: #fdab13;
+background-color: #007bff;
 color: #ffffff;
 border: none;
 border-radius: 5px;
@@ -91,8 +103,8 @@ a:hover {
 background-color: #cd7b00;
 }
 
-div {
+.confondo {
     background-image: url("/static/img/wallpapergr.jpg");
-height: auto;
-background-repeat: no-repeat;
+    height: auto;
+    background-repeat: no-repeat;
 }
